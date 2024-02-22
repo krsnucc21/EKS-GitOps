@@ -12,7 +12,7 @@ spec:
       - subnet-0e9cd84e7330dedc7
       - subnet-048d6fdc454a3c3c5
     scalingConfig:
-      desiredSize: 2
+      desiredSize: 1
       maxSize: 3
       minSize: 1
     diskSize: 20
