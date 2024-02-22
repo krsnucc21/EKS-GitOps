@@ -6,7 +6,6 @@ metadata:
 spec:
   forProvider:
     clusterName: my-eks-cluster
-    nodeGroupName: my-eks-nodegroup
     nodeRole: arn:aws:iam::620023729967:role/my-eks-nodegroup-role
     subnets:
       - subnet-0e9cd84e7330dedc7
