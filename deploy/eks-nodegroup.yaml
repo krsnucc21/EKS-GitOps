@@ -15,9 +15,7 @@ spec:
       desiredSize: 1
       maxSize: 3
       minSize: 1
-    diskSize: 20
-    instanceTypes:
-      - t3.medium
-    amiType: AL2_x86_64
+    launchTemplate:
+      id: lt-09fa2830239e2fa7c
   providerConfigRef:
     name: aws-provider
