@@ -8,11 +8,14 @@ spec:
     clusterName: my-eks-cluster
     region: us-east-1
     nodeRole: arn:aws:iam::620023729967:role/my-eks-nodegroup-role
+    subnets:
+      - subnet-0e9cd84e7330dedc7
+      - subnet-048d6fdc454a3c3c5
     scalingConfig:
       desiredSize: 1
       maxSize: 3
       minSize: 1
     launchTemplate:
-      id: lt-09fa2830239e2fa7c
+      id: lt-032b442d9cc285ff9
   providerConfigRef:
     name: aws-provider
