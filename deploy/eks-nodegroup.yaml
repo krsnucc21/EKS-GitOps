@@ -10,7 +10,6 @@ spec:
     nodeRole: arn:aws:iam::620023729967:role/my-eks-nodegroup-role
     subnets:
       - subnet-0e9cd84e7330dedc7
-      - subnet-048d6fdc454a3c3c5
     scalingConfig:
       desiredSize: 2
       maxSize: 3
