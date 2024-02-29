@@ -9,7 +9,7 @@ spec:
     region: us-east-1
     nodeRole: arn:aws:iam::620023729967:role/my-eks-nodegroup-role
     scalingConfig:
-      desiredSize: 2
+      desiredSize: 1
       maxSize: 3
       minSize: 1
     launchTemplate:
